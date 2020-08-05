@@ -47,7 +47,9 @@
     "build": "nuxt-ts build",
     "start": "nuxt-ts start",
     "generate": "nuxt-ts build --target static && nuxt-ts export",
-    "stylelint": "stylelint '**/*.scss'"
+    "stylelint": "stylelint '**/*.scss'",
+     "test" : "exit 0"
+
   },
   "devDependencies": {
     "@nuxt/typescript-build": "^2.0.0",
